@@ -1,6 +1,6 @@
-var gulp = require("gulp");
-var less = require("gulp-less");
-var path = require("path");
+const gulp = require("gulp");
+const less = require("gulp-less");
+const path = require("path");
 
 gulp.task("less", function() {
   return gulp
